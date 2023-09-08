@@ -4,6 +4,7 @@ function shuffle(){
     img.setAttribute("src", `assets/${random}.png`);
 }
 
+
 function anim(){
     setTimeout(shuffle, 500);
     const img = document.getElementById("img");
